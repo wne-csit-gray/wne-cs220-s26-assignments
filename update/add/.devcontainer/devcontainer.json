@@ -1,0 +1,6 @@
+{
+    "image" : "mcr.microsoft.com/devcontainers/universal",
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:${containerWorkspaceFolder}/.devcontainer/scripts"
+    }
+}
